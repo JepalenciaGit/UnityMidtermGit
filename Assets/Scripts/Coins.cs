@@ -17,7 +17,7 @@ public class Coins : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")) //When Player collects coin, it is destroyed
             Destroy(this.gameObject);
     }
 }

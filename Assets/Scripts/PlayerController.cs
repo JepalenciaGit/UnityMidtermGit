@@ -56,9 +56,5 @@ public class PlayerController : MonoBehaviour
         {
             this.transform.position = spawnPoint;
         }
-        else if (other.gameObject.CompareTag("Coin"))
-        {
-            //DestroyImmediate(other);
-        }
     }
 }
